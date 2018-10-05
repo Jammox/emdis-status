@@ -1,0 +1,32 @@
+{
+  "name": "emdis-status",
+  "version": "1.0.0",
+  "description": "EMDIS hub status web service",
+  "main": "emdis-status.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon emdis-status.js"
+  },
+  "keywords": [
+    "EMDIS",
+    "WMDA",
+    "Bone Marrow",
+    "Donors"
+  ],
+  "author": "James Fitches (J^F)",
+  "license": "GNU GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jammox/emdis-status.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.0.1",
+    "express": "^4.16.3",
+    "node-firebird": "^0.8.6",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
