@@ -1,2 +1,26 @@
+# pm2
+ecosystem.*
+
+# VSCode/shell
+*.vscode
+*.code-workspace
+*.ps1
+install
+
+# Logs
+*.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
 # Dependency directories
 node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz

@@ -7,7 +7,7 @@
 
 'use strict';
 
-var debug = require('debug')('emdisStatusModel');
+var debug = require('debug')('emdis-status:emdisStatusModel');
 var Firebird = require('node-firebird');
 
 // load config
