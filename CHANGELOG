@@ -2,8 +2,8 @@
  *
  * emdis-status
  *
- * REST web service providing EMDIS hub connection and messages
- * stats written in Node.js
+ * REST web service providing EMDIS hub connection status written
+ * in Node.js
  * 
  * Copyright (c) 2018-2019 James A.Fitches (J^F)
  *
@@ -12,4 +12,5 @@
 Change log
 ==========
 2018/05/24 - 1.0.0.0 - J^F > Initial version
-2019/06/14 - 1.1.0.0 - J^F > Package and license update
+2019/06/14 - 1.0.19165.2030 - J^F > Package and license update
+2019/06/17 - 1.0.19168.1100 - J^F > Create tests

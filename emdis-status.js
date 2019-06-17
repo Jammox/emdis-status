@@ -5,9 +5,9 @@
  *  
  * Copyright (c) 2018 James Fitches (J^F)
  * 
- * 2018/05/24 - 1.0.0 - J^F > Initial version
+ * 2018/05/24 - 1.0.0.0 - J^F > Initial version
  * 
- * URL: http:\\localhost:port\status
+ * URL: http://localhost:port/status
  * 
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
