@@ -73,4 +73,4 @@ This service does not provide or require authentication and is intended for inte
 
 ## License
 
-This project is licensed under the GPL3.0 License - see the [LICENSE](https://wbs-wales.visualstudio.com/_git/emdis-status-adv?path=%2FLICENSE&version=GBmaster&_a=contents) file for details.
+This project is licensed under the GPL3.0 License - see the [LICENSE](https://github.com/Jammox/emdis-status/blob/master/LICENSE) file for details.
