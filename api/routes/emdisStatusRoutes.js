@@ -1,24 +1,20 @@
 /*
  * emdisStatusRoutes.js
- * 
+ *
  * 2018/05/24 - 1.0.0 - J^F > Initial version
- * 
+ *
  * URL: http://localhost:port/status
- * 
+ *
  */
 
-'use strict';
+const control = require('../controllers/emdisStatusController');
 
-var control = require('../controllers/emdisStatusController');
+module.exports = (app) => {
+  // default route, return all hubs
+  app.route('/status')
+    .get(control.getStatus);
 
-module.exports = function (app) {
-
-	// default route, return all hubs
-	app.route('/status')
-		.get(control.getStatus);
-
-	// return specified hub only
-	app.route('/status/:Hub')
-		.get(control.getStatus);
-
+  // return specified hub only
+  app.route('/status/:Hub')
+    .get(control.getStatus);
 };

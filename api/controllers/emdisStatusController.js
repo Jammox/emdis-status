@@ -1,14 +1,12 @@
 /*
  * emdisStatusController
- * 
+ *
  * 2018/05/24 - 1.0.0 - J^F > Initial version
- * 
+ *
  */
 
-'use strict';
+const model = require('../models/emdisStatusModel');
 
-var model = require('../models/emdisStatusModel');
-
-exports.getStatus = function (req, res, next) {
-	model.loadData(req, res, next);
+exports.getStatus = (req, res) => {
+  model.loadData(req, res);
 };

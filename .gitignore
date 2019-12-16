@@ -1,11 +1,7 @@
-# pm2
-ecosystem.*
-
 # VSCode/shell
 *.vscode
 *.code-workspace
 *.ps1
-install
 
 # Logs
 *.log*
