@@ -21,14 +21,13 @@ exports.loadData = (req, res) => {
     query += ' WHERE UPPER(hub) = ?';
   }
 
-  // eslint-disable-next-line consistent-return
   Firebird.attach(config.dboptions, (err, db) => {
     if (err) {
       debug(`${chalk.redBright('DbException')}: ${err.stack}`);
       return res.status(500).send({ message: 'Internal Error!' });
     }
 
-    db.query(query, [hub], (err, result) => {
+    return db.query(query, [hub], (err, result) => {
       db.detach();
 
       if (err) {
